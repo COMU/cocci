@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="coccinelle yaması oluşturan web sayfasıdır">
 	<meta name="keywords" content="cocci,coccinelle,patch">
-	<meta name="author" content="yeliztaneroglu,melikeyurtoglu">
+	<meta name="author" content="Yeliz Taneroğlu" >
 	<link rel="shortcut icon" href="http://bebefaismoisigne.com/wp-content/uploads/2013/03/coccinelle-rouge.jpg">
 	<title>Coccinelle</title>
 	<style>
@@ -79,11 +79,12 @@
 <table broder="0" width="100%" cellpadding="0">
 <tr>
 <td width="50%" valing="top">
-<form>
+<form action="run.php" method="post" enctype="multipart/form-data>
 	<fieldset>
 		<legend style="text-shadow: 1px 1px 4px ;"><a href="http://coccinelle.lip6.fr/" target=”_blank” title="Coccinelle Home" >Please enter the script here</a></legend>
-		<label></label><textarea class="change-color"style="border: 3px  solid black;font-family: Verdana;
-		font-size: 20px; " rows="10" cols="30"></textarea> <br/><br/>
+		<label></label><textarea name="icerik" class="change-color"style="border: 3px  solid black;font-family: Verdana;
+		font-size: 20px; " rows="10" cols="30">varsayılan deger</textarea> <br/><br/>
+		<input class="button"style="font-size: 15px; font-weight: bold;"type="submit" value="Run"/>
 	
 	</fieldset>
 
@@ -104,11 +105,6 @@
 
 </td>
 
-<table><br/>
-
-	<input class="button"style="font-size: 15px;
-		font-weight: bold;"type="button" value="Run"/>
-</table>
 <br/>
 <table broder="0" width="100%" cellpadding="10" >
 <tr>
