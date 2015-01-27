@@ -125,8 +125,8 @@
 <td width="50%" valign="top">
 <br/><br/><br/><br/><br/><br/>
 	<img style="width: 60px; height: 60px;" src="https://cdn0.iconfinder.com/data/icons/Folder_Icons_akkasone/256/Downloads-Folder-Icon.png"/>
-	<center><input  class="button"style="font-size: 15px;
-		font-weight: bold;"type="button" value="Download"/></center></a>
+	<center><form action="indirme.php" method="post" action="" enctype="multipart/form-data" >
+		<input type="submit" name="Submit2" value="Dowloand" id="label7" /></center></a>
 </td>
 <table>
 <div>
