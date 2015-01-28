@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="description" content="coccinelle yaması oluşturan web sayfasıdır">
 	<meta name="keywords" content="cocci,coccinelle,patch">
-	<meta name="author" content="Yeliz Taneroğlu" >
+	<meta name="author" content="Yeliz Taneroğlu , Ayse Melike Yurtoğlu" >
 	<link rel="shortcut icon" href="http://bebefaismoisigne.com/wp-content/uploads/2013/03/coccinelle-rouge.jpg">
 	<title>Coccinelle</title>
 	<style>
@@ -84,6 +84,7 @@
 		<legend style="text-shadow: 1px 1px 4px ;"><a href="http://coccinelle.lip6.fr/" target=”_blank” title="Coccinelle Home" >Please enter the script here</a></legend>
 		<label></label><textarea name="icerik" class="change-color"style="border: 3px  solid black;font-family: Verdana;
 		font-size: 20px; " rows="10" cols="30">varsayılan deger</textarea> <br/><br/>
+		<form action="run.php" method="post" enctype="multipart/form-data">
 		<input class="button"style="font-size: 15px; font-weight: bold;"type="submit" value="Run"/>
 	
 	</fieldset>
